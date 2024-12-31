@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="start">
+        <button>Start Game</button>
+    </div>
+    <div class="container">
+        <div class="gameTitle">Rock-Paper-Scissors</div>
+        <div class="buttons">
+            <div class="blink"><img src="rock.png" alt="rock" id ="rock"></div>
+            <div class="blink"><img src="hand.png" alt="paper" id="paper"></div>
+            <div class="blink"><img src="scissors.png" alt="scissor" id="scissors"></div>
+        </div>
+        <div class="score">
+            <div class="computer"><div class="displayScore">0</div><p>Computer</p></div>
+            <div class="human"><div class="displayScore">0</div><p>Human</p></div>
+        </div>
+        <div class="result"></div>
+        <div class="finalResult"></div>
+        <div class="newGame">New Game</div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
